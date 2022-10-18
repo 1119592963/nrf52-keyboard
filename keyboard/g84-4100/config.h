@@ -51,7 +51,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define LED_AUTOOFF_TIME 5 /* LED自动熄灭时长(s)，设为0则不自动熄灭 */
 
 // LED自动熄灭时长(5000ms)，设为0则不自动熄灭
-#define LED_AUTOOFF_TIME 500
+//#define LED_AUTOOFF_TIME 500
 
 // 键盘额外功能
 //#define DYNAMIC_TX_POWER /* 启用自动发射功率调整 */
