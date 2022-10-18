@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <stdint.h>
 
-#ifdef NRF52_APP
-    #include "ledmap/ledmap.h"
-#endif
+//#ifdef NRF52_APP
+//    #include "ledmap/ledmap.h"
+//#endif
 
 /* USB和蓝牙的显示参数 */
 #define VENDOR_ID 0x1209 /* USB VID */
