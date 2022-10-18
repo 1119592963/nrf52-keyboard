@@ -105,6 +105,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define UART_RXD 17 // UART_RX口IO
 #define UART_TXD 18 // UART_TX口IO
 // #define UART_DET 19 // UART 检测引脚，若此脚被拉低，则说明USB正在工作。若不配置则使用RX口作为检测引脚
+#define UART0_BUAD 115200
 #define UART_BAUDRATE NRF_UART_BAUDRATE_115200 // 通信波特率，请不要修改
 #define CH55X_FREQ_SYS 24000000
 
