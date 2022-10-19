@@ -1,5 +1,5 @@
 OUTPUT_DIR = _build
-SUBDIRS=$(filter-out $(OUTPUT_DIR),$(shell ls -l | grep ^d | grep -v 'ergoconn\|lkb-core\|lot60-ble\|template\|test' | awk '{print $$9}'))
+SUBDIRS=$(filter-out $(OUTPUT_DIR),$(shell ls -l | grep ^d | grep -v 'ergoconn\|farad69\|gt-planck\|lkb-core\|lot60-ble\|template\|test' | awk '{print $$9}'))
 export RELEASE_DIR = ../$(OUTPUT_DIR)
 
 .PHONY: clean release dist_clean help
