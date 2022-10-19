@@ -1,4 +1,4 @@
-# G84-4100 Based on LKB-Core
+# G84-4100 Based on LKB-Core 注：已修改
 
 G84-4100/4125 系列改装固件。
 
