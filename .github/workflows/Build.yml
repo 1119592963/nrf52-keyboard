@@ -73,5 +73,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         local-dir: ${{ github.workspace }}/keyboard/_build/
         server-dir: /htdocs/down/sdk17/
-       state-name: ../.artifact-sync-state.json
+        state-name: ../.artifact-sync-state.json
         exclude: "[*/**, *nrf52*.zip, *.hex, *.bin]"
