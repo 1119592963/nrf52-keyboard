@@ -65,13 +65,13 @@ jobs:
         cd ${{ github.workspace }}/keyboard/_build/Artifact
         zip -r ../LotKB_Keyboard_Firmware_${{ env.BUILDTIME }}_${{ env.VERSION }}.zip *
     # 通过FTP上传到个人HOST
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
-      with:
-        server: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        local-dir: ${{ github.workspace }}/keyboard/_build/
-        server-dir: /htdocs/down/sdk17/
-        state-name: ../.artifact-sync-state.json
-        exclude: "[*/**, *nrf52*.zip, *.hex, *.bin]"
+    #- name: 📂 Sync files
+    #  uses: SamKirkland/FTP-Deploy-Action@4.1.0
+     # with:
+     #   server: ${{ secrets.HOST }}
+     #   username: ${{ secrets.USERNAME }}
+     #   password: ${{ secrets.PASSWORD }}
+     #   local-dir: ${{ github.workspace }}/keyboard/_build/
+     #   server-dir: /htdocs/down/sdk17/
+     #   state-name: ../.artifact-sync-state.json
+     #   exclude: "[*/**, *nrf52*.zip, *.hex, *.bin]"
