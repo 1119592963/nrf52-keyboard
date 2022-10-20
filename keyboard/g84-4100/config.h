@@ -88,7 +88,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define LED_NUM 25
 #define LED_CAPS 29
 // #define LED_SCLK 23
-#define LED_POSITIVE // LED下拉驱动
+#define LED_POSITIVE // LED上拉驱动
 //#define LED_DFU_INIT 25
 //#define LED_DFU_START 24
 //#define LED_DFU_FINISH 23
@@ -96,6 +96,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // 启用 LED 状态灯
 #define LED_BLE 30  // 19
+
+#define LED_USB 28 // 20
 
 // 独立硬件按钮
 #define POWER_BUTTON 31 // 3
